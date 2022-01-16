@@ -59,6 +59,8 @@
     text-align: center;
     font-size: 35px;
     color: rgb(92, 92, 92);
+    width: 600px;
+    margin: auto;
 }
 
 .center {
@@ -71,10 +73,34 @@
     display: inline;
 }
 
-
-
 .imageBox{
     background-image: url("/media/home_03.jpg");
+    background-position: center;
+
+    background-size: cover;
+    height: 400px;
+    width: 300px; 
+    margin-left: 100px;
+    border: solid 0;
+    border-radius: 20px;
+    margin: 70px;
+}
+
+.imageBox1{
+    background-image: url("/media/home_05.jpg");
+    background-position: center;
+
+    background-size: cover;
+    height: 400px;
+    width: 300px; 
+    margin-left: 100px;
+    border: solid 0;
+    border-radius: 20px;
+    margin: 70px;
+}
+
+.imageBox2{
+    background-image: url("/media/home_07.jpg");
     background-position: center;
 
     background-size: cover;
@@ -103,7 +129,41 @@
 
 .hero-section{
     display: flex;
+    padding-bottom: 100px;
 }
 
+.carousel-inner{
+    background-color: green;
+    border: solid 0px;
+    border-radius: 20px;
+}
+/* carousel-caption d-none d-md-block */
+.slide-text{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    color: white;
+}
 
+#carouselExampleCaptions{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.testimonials{
+    text-align: center;
+
+}
+
+.testimonials p {
+    margin-top: 50px;
+    font-size: 18px;
+    width: 700px;
+    margin: auto;
+}
+
+.testimonials h4 {
+    color: green;
+    margin-top: 30px;
+}
 
