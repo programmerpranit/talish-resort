@@ -1,3 +1,5 @@
+
+
 .topimage {
     background-color: black;
     height: 620px;
@@ -70,7 +72,7 @@
 }
 
 .overlap{
-    display: inline;
+    /* display: inline; */
 }
 
 .imageBox{
@@ -128,7 +130,7 @@
 }
 
 .hero-section{
-    display: flex;
+    /* display: flex; */
     padding-bottom: 100px;
 }
 
@@ -137,7 +139,6 @@
     border: solid 0px;
     border-radius: 20px;
 }
-/* carousel-caption d-none d-md-block */
 .slide-text{
     text-align: center;
     padding-bottom: 20px;
@@ -152,7 +153,6 @@
 
 .testimonials{
     text-align: center;
-
 }
 
 .testimonials p {
@@ -167,3 +167,141 @@
     margin-top: 30px;
 }
 
+
+.footer{
+    margin-top: 300px;
+    background-color: black;
+    height: 500px;
+}
+
+.footer p {
+    font-size: 20px;
+    color: green;
+    font-weight: 800;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+.footer h6{
+    color: white;
+    margin-left: 10px;
+}
+
+.footer span{
+    padding: 10px;
+    display: flex;
+    margin-left: 400px;
+}
+
+.icon{
+    height: 20px;
+}
+
+
+
+/* Facilities */
+
+.topSection h2 {
+    color: white;
+    text-align: center;
+    margin-top: -200px;
+}
+
+
+.message2 h3{
+    color: green;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.message2 p {
+    text-align: center;
+    font-style: italic;
+}
+
+.message2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.couple img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0 solid;
+    border-radius: 20px;
+}
+
+.couple div{
+    width: 40%;
+    margin: auto;
+    background-color: green;
+    opacity: 0.8;
+    border: 0 solid;
+    border-radius: 5px;
+    margin-top: -100px;
+    padding: 50px;
+}
+
+.couple p {
+    text-align: center;
+    z-index: 5;
+    opacity: 1.0;
+    color: white;
+}
+
+.large-triangles{
+    margin-top: 50px;
+    background-image: url("/media/large-triangles.svg");
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding: 70px;
+}
+
+
+.message3 h3{
+    color: green;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.message3 p {
+    text-align: center;
+    font-style: italic;
+}
+
+.message3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.new-frame{
+    width: 25%;
+    margin: auto;
+    margin-top: 100px;
+    border: solid 4px green;
+    padding: 20px;
+    text-align: center;
+}
+
+.new-frame img{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+}
+
+.new-frame h5{
+    color: green;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.wraper{
+    overflow: hidden;
+}
