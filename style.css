@@ -1,8 +1,18 @@
 
+.dark-navbar{
+    background-color: rgba(0, 0, 0, 0.74);
+    color: white;
+}
+
+.nav-item{
+    color: white;
+}
+
 
 .topimage {
     background-color: black;
-    height: 620px;
+    height: fit-content;
+    
 }
 
 .formCard{
@@ -21,11 +31,13 @@
     width: 700px;
     font-size: 50px;
     margin-left: 50px;
+    padding-bottom: 280px;
     color: white;
 }
 
 .tImage{
-    margin-top: -150px;
+    /* margin-top: -150px; */
+    width: 100%;
     opacity: 0.5;
 }
 .navbar{
@@ -72,7 +84,7 @@
 }
 
 .overlap{
-    /* display: inline; */
+    display: inline;
 }
 
 .imageBox{
@@ -130,7 +142,7 @@
 }
 
 .hero-section{
-    /* display: flex; */
+    display: flex;
     padding-bottom: 100px;
 }
 
@@ -178,7 +190,8 @@
     font-size: 20px;
     color: green;
     font-weight: 800;
-    margin-left: 400px;
+    /* margin-left: 400px; */
+    
     margin-top: 40px;
 }
 
@@ -190,7 +203,7 @@
 .footer span{
     padding: 10px;
     display: flex;
-    margin-left: 400px;
+    /* margin-left: 400px; */
 }
 
 .icon{
@@ -261,7 +274,6 @@
     padding: 70px;
 }
 
-
 .message3 h3{
     color: green;
     margin-top: 50px;
@@ -305,3 +317,190 @@
 .wraper{
     overflow: hidden;
 }
+
+.home-facilities{
+    margin-top: -100px;
+}
+
+/* suits  */
+
+.suits-top img{
+    margin-top: -400px;
+    
+}
+
+.suits-top h2{
+    text-align: center;
+    color: white;
+    margin-top: -250px;
+    margin-bottom: 250px;
+}
+
+/* discover */
+
+.attractions{
+    margin: 50px!important;
+}
+
+.nature{
+    background-image: url("/media/Arjun_Banner-1024x262.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 60px;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+}
+
+.message3 h3{
+    color: green;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.message3 p {
+    text-align: center;
+    font-style: italic;
+}
+
+.message3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 760px) {
+
+    .attractions{
+        margin: 5px!important;
+    }
+    .attractions div{
+        padding: 10px!important;
+        margin: 0px!important;
+    }
+
+    .nature{
+        padding: 20px;
+    }
+
+    .suits-top img{
+        margin-top: auto;
+    }
+    .suits-top h2{
+        margin-top: -120px;
+        margin-bottom: 150px;
+        
+    }
+
+    .topimage{
+        padding-bottom: -500px;
+    }
+
+    .topimage h3{
+        margin: auto;
+        margin-top: -300px;
+        text-align: center;
+    }
+
+    .topimage h2{
+        margin: auto;
+        width: auto;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 50px;
+        padding-bottom: 165px;
+    }
+
+    .tImage{
+        width: 100%;
+        height: 500px;
+    }
+
+    .aboutBox {
+        padding: 10px;
+    }
+
+    .message{
+        width: auto;
+        margin-top: 50px;
+    }
+
+    .imageBox{
+        margin-left: 50px;
+    }
+    .imageBox1{
+        margin-left: 50px;
+    }
+    .imageBox2{
+        margin-left: 50px;
+    }
+
+    .overlap{
+        margin-right: 100px;
+    }
+
+    #carouselExampleCaptions{
+        width: 100%;
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+    }
+
+    #carouselExampleCaptions img {
+        height: auto;
+    }
+
+    .testimonials p{
+        width: auto;
+    }
+
+    .footer h6{
+        padding-left: 20px;
+    } 
+
+    .footer{
+        padding: 20px;
+    }
+
+    .topSection h2{
+        margin-top: -50px;
+    }
+    
+    .home-facilities{
+        margin: auto;
+    }
+
+    .message2 h3{
+        margin-top: 90px;
+    }
+
+    .couple img{
+        width: 95%;
+        margin-top: 100px;
+        border-radius: 10px;
+    }
+
+    .couple div{
+        width: 85%;
+        margin-top: -50px;
+        padding: 10px;
+    }
+
+    .large-triangles {
+        padding: 30px;
+    }
+
+    .new-frame{
+        width: 80%;
+    }
+
+    .s-details div{
+        padding: 20px!important;
+        margin: 0px!important;
+    }
+
+    .s-details{
+        margin-bottom: 80px;
+    }
+
+  }
+
